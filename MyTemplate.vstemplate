@@ -1,0 +1,27 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>OpenGL_Template</Name>
+    <Description>pre-build project for glad. Need to install OpenGL/gim from NuGet </Description>
+    <ProjectType>VC</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>OpenGL_Template</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="1211.vcxproj" File="1211.vcxproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="false" TargetFileName="$projectname$.vcxproj.filters">1211.vcxproj.filters</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="glad.c">glad.c</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="glad.h">INCLUDE\GLAD\glad.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="khrplatform.h">INCLUDE\KHR\khrplatform.h</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="packages.config">packages.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
